@@ -1,7 +1,7 @@
 inherit kf5
 
 NAME="kf5-kimap"
-VERSION=16.08.3
+VERSION=17.04.3
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE IMAP library"
@@ -14,6 +14,7 @@ PKG_NAMES="libKF5IMAP5 libKF5IMAP-devel"
 libKF5IMAP5_CONTENTS="
 	usr/bin/cygKF5IMAP-5.dll
 	usr/share/doc/${NAME}
+	usr/share/locale/*/LC_MESSAGES/libkimap5.mo
 "
 libKF5IMAP_devel_REQUIRES="libKF5Mime-devel"
 libKF5IMAP_devel_CONTENTS="
